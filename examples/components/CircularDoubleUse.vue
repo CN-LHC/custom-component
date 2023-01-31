@@ -7,9 +7,9 @@
 
 <template>
   <div class="CircularDoubleUse">
-    <custom-circular-double :childData="config1" />
-    <custom-circular-double :childData="config2" />
-    <custom-circular-double :childData="config3" />
+    <lhc-circular-double :childData="config1" />
+    <lhc-circular-double :childData="config2" />
+    <lhc-circular-double :childData="config3" />
   </div>
 </template>
 

@@ -56,7 +56,7 @@ const config = {
 };
 
 export default {
-  name: "custom-turntable",
+  name: "lhc-turntable",
   props: {
     // 奖品列表
     prizeListProp: {

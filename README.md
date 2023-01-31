@@ -1,4 +1,4 @@
-# [个人NPM组件库](https://www.npmjs.com/package/zzmcomponentlib)custom-component
+# [个人NPM组件库](https://www.npmjs.com/package/zzmcomponentlib)custom-component-lib
 
 ## Project setup
 
@@ -65,18 +65,18 @@ develop：开发分支（目前在此开发）
 
 ### 安装
 
-`npm install custom-component --save-dev`
+`npm install custom-component-lib --save-dev`
 
 ### 卸载
 
-`npm uninstall `custom-component 
+`npm uninstall `custom-component-lib 
 
-### 更新的就npm i全局一下，在 `npm i custom-component --save-dev`
+### 更新的就npm i全局一下，在 `npm i custom-component-lib --save-dev`
 
 ```
-import custom-component from 'custom-component'
-import  'custom-component/lib/custom-component.css'
-Vue.use(custom-component)
+import custom-component-lib from 'custom-component-lib'
+import  'custom-component-lib/lib/custom-component-lib.css'
+Vue.use(custom-component-lib)
 ```
 
 ### 0.0.1

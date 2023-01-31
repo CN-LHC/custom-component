@@ -1,14 +1,14 @@
 {
-  "name": "custom-component",
+  "name": "custom-component-lib",
   "version": "0.0.1",
   "description": "基于 Vue 的自定义组件库",
-  "main": "lib/custom-component.umd.min.js",
+  "main": "lib/custom-component-lib.umd.min.js",
   "keyword": "vue component custom customComponent",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lib": "vue-cli-service build --target lib --name custom-component --dest lib packages/index.js",
+    "lib": "vue-cli-service build --target lib --name custom-component-lib --dest lib packages/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {

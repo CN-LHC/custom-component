@@ -43,7 +43,7 @@
 
 <script>
 export default {
-  name: 'custom-circular-double',
+  name: 'lhc-circular-double',
   props: {
     childData: {
       type: Object

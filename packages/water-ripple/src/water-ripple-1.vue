@@ -20,7 +20,7 @@
 </template>
 <script>
 export default {
-  name: "custom-water-ripple",
+  name: "lhc-water-ripple",
   props: {
     // 是否下载的是word
     num: {

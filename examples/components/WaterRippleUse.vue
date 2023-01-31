@@ -9,14 +9,14 @@
 <template>
   <div class="WaterRipple-content">
     <div class="substance">
-      <custom-water-ripple class="item" :num="0"> </custom-water-ripple>
-      <custom-water-ripple class="item" :num="1"> </custom-water-ripple>
-      <custom-water-ripple class="item" :num="100"> </custom-water-ripple>
+      <lhc-water-ripple class="item" :num="0"> </lhc-water-ripple>
+      <lhc-water-ripple class="item" :num="1"> </lhc-water-ripple>
+      <lhc-water-ripple class="item" :num="100"> </lhc-water-ripple>
     </div>
     <div class="substance">
-      <custom-water-ripple-1 class="item" :num="0"> </custom-water-ripple-1>
-      <custom-water-ripple-1 class="item" :num="1"> </custom-water-ripple-1>
-      <custom-water-ripple-1 class="item" :num="100"> </custom-water-ripple-1>
+      <lhc-water-ripple-1 class="item" :num="0"> </lhc-water-ripple-1>
+      <lhc-water-ripple-1 class="item" :num="1"> </lhc-water-ripple-1>
+      <lhc-water-ripple-1 class="item" :num="100"> </lhc-water-ripple-1>
     </div>
   </div>
 </template>

@@ -2,7 +2,7 @@
  * @Author: liuhanchuan 
  * @Date: 2023-01-31 14:31:15 
  * @Last Modified by: liuhanchuan
- * @Last Modified time: 2023-01-31 14:32:46
+ * @Last Modified time: 2023-01-31 14:43:56
  */
 
 <template>
@@ -19,7 +19,7 @@
 </template>
 <script>
 export default {
-  name: "custom-water-ripple-1",
+  name: "lhc-water-ripple-1",
   props: {
     num: {
       type: Number,

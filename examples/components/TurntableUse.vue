@@ -1,10 +1,10 @@
 <template>
   <div class="hello">
-   <custom-turntable 
+   <lhc-turntable 
    :prizeListProp = "prizeList" 
    :countProp = "countProp" 
    @draw = "draw">
-   </custom-turntable>
+   </lhc-turntable>
   </div>
 </template>
 
