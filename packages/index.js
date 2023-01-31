@@ -1,10 +1,8 @@
 /*
- * @Author: zemin zheng
- * @Date: 2022-03-17 15:42:30
- * @LastEditTime: 2022-07-03 11:03:01
- * @LastEditors: zemin zheng
- * @Description: 导入组件
- * @FilePath: \componentlib\packages\index.js
+ * @Author: liuhanchuan 
+ * @Date: 2023-01-31 14:32:12 
+ * @Last Modified by:   liuhanchuan 
+ * @Last Modified time: 2023-01-31 14:32:12 
  */
 
 import Turntable from "./turntable"

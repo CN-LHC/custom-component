@@ -1,11 +1,9 @@
-<!--
- * @Author: zemin zheng
- * @Date: 2022-03-21 11:23:21
- * @LastEditTime: 2022-07-02 16:30:57
- * @LastEditors: zemin zheng
- * @Description: 水波纹另外形状比例图组件
- * @FilePath: \componentlib\packages\water-ripple\src\water-ripple-2.vue
--->
+/*
+ * @Author: liuhanchuan 
+ * @Date: 2023-01-31 14:31:15 
+ * @Last Modified by: liuhanchuan
+ * @Last Modified time: 2023-01-31 14:32:46
+ */
 
 <template>
   <div>

@@ -1,3 +1,10 @@
+/*
+ * @Author: liuhanchuan 
+ * @Date: 2023-01-31 14:32:36 
+ * @Last Modified by:   liuhanchuan 
+ * @Last Modified time: 2023-01-31 14:32:36 
+ */
+
 
 // 导入组件，组件必须声明 name
 import turntable from './src/index.vue'

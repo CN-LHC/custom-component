@@ -1,11 +1,9 @@
-<!--
- * @Author: zemin zheng
- * @Date: 2022-03-17 18:05:58
- * @LastEditTime: 2022-07-03 11:12:31
- * @LastEditors: zemin zheng
- * @Description: 圆形百分比组件 -- 使用例子
- * @FilePath: \componentlib\examples\components\CircularDoubleUse.vue
--->
+/*
+ * @Author: liuhanchuan 
+ * @Date: 2023-01-31 14:30:14 
+ * @Last Modified by:   liuhanchuan 
+ * @Last Modified time: 2023-01-31 14:30:14 
+ */
 
 <template>
   <div class="CircularDoubleUse">

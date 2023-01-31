@@ -1,11 +1,9 @@
-<!--
- * @Author: zemin zheng
- * @Date: 2022-03-17 18:07:53
- * @LastEditTime: 2022-07-03 11:12:24
- * @LastEditors: zemin zheng
- * @Description: 圆形百分比组件
- * @FilePath: \componentlib\packages\circular-double\src\index.vue
--->
+/*
+ * @Author: liuhanchuan 
+ * @Date: 2023-01-31 14:31:23 
+ * @Last Modified by: liuhanchuan
+ * @Last Modified time: 2023-01-31 14:32:58
+ */
 
 <template>
   <div>

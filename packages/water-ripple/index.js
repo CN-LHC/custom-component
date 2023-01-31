@@ -1,13 +1,9 @@
 /*
- * @Author: zemin zheng
- * @Date: 2022-07-01 17:55:22
- * @LastEditTime: 2022-07-02 16:22:40
- * @LastEditors: zemin zheng
- * @Description: 头部注释
- * @FilePath: \componentlib\packages\water-ripple\index.js
+ * @Author: liuhanchuan 
+ * @Date: 2023-01-31 14:32:20 
+ * @Last Modified by:   liuhanchuan 
+ * @Last Modified time: 2023-01-31 14:32:20 
  */
-
-
 
 // 导入组件，组件必须声明 name
 import WaterRipple1 from './src/water-ripple-1.vue'

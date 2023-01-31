@@ -1,12 +1,9 @@
 /*
- * @Author: zemin zheng
- * @Date: 2022-03-17 18:07:11
- * @LastEditTime: 2022-07-03 11:01:29
- * @LastEditors: zemin zheng
- * @Description: 头部注释
- * @FilePath: \componentlib\packages\circular-double\index.js
+ * @Author: liuhanchuan 
+ * @Date: 2023-01-31 14:30:58 
+ * @Last Modified by: liuhanchuan
+ * @Last Modified time: 2023-01-31 14:31:30
  */
-
 
 // 导入组件，组件必须声明 name
 import circularDouble from './src/index.vue'

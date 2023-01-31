@@ -1,12 +1,9 @@
 /*
- * @Author: zemin zheng
- * @Date: 2022-03-17 15:42:30
- * @LastEditTime: 2022-07-03 10:59:26
- * @LastEditors: zemin zheng
- * @Description: 路由文件入口
- * @FilePath: \componentlib\examples\router.js
+ * @Author: liuhanchuan 
+ * @Date: 2023-01-31 14:29:54 
+ * @Last Modified by:   liuhanchuan 
+ * @Last Modified time: 2023-01-31 14:29:54 
  */
-
 
 import Index from './components/index.vue'
 import TurntableUse from './components/TurntableUse.vue'
