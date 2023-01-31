@@ -1,13 +1,19 @@
 /*
  * @Author: liuhanchuan 
  * @Date: 2023-01-31 14:30:36 
- * @Last Modified by:   liuhanchuan 
- * @Last Modified time: 2023-01-31 14:30:36 
+ * @Last Modified by: liuhanchuan
+ * @Last Modified time: 2023-01-31 15:44:03
  */
 
 <template>
   <div>
-    <div class="content">
+      <button
+        class="button"
+        type="success"
+        size="medium"
+        @click="btnComponent('cropper-dialog')"
+        >裁剪图片</button
+      >
       <button
         class="button"
         type="success"
@@ -15,8 +21,6 @@
         @click="btnComponent('turn-table')"
         >大转盘组件案例</button
       >
-    </div>
-    <div class="content">
       <button
         class="button"
         type="primary"
@@ -31,7 +35,6 @@
         @click="btnComponent('circular-double')"
         >圆形百分比组件案例</button
       >
-    </div>
   </div>
 </template>
 
