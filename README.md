@@ -79,6 +79,15 @@ import  '@liuhanchuan/custom-component-lib/lib/custom-component-lib.css'
 Vue.use(custom-component-lib)
 ```
 
+### 说明
+
+`组件库部分组件依赖第三方组件库，使用前请检查项目是否安装以下依赖包`
+
+| 依赖包名称 | 安装方式               | 说明                                    |
+| ---------- | ---------------------- | --------------------------------------- |
+| element-ui | npm install element-ui | 基于vue 实现的一套不依赖业务的UI 组件库 |
+|            |                        |                                         |
+
 ### 0.0.1
 
 | 新特性                           |         描述         | Bug修复 | 作者 | 更新时间 |
