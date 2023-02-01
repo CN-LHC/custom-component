@@ -43,12 +43,13 @@ export default {
 
             return isFileSizeFit;
         },
-        changeImgMsg(value) {
+        changeImgMsg(value, callback) {
             blobToBase64(value.blobFile).then((base64) => {
                 this.imgMsg = {
                     blob: base64,
                     name: value.name
                 }
+                callback()
             })
         }
     }

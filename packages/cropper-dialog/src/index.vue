@@ -2,7 +2,7 @@
  * @Author: liuhanchuan 
  * @Date: 2021-12-20 14:39:18 
  * @Last Modified by: liuhanchuan
- * @Last Modified time: 2023-01-31 16:52:14
+ * @Last Modified time: 2023-02-01 09:48:16
  * 图片裁剪，配置参数需要查看props
  */
 <template>
@@ -43,7 +43,7 @@
       </div>
       <div slot="footer" class="dialog-footer">
         <el-button @click="closeDialog">取 消</el-button>
-        <el-button type="primary" @click="finish">确认</el-button>
+        <el-button type="primary" @click="finish" :loading="loading">确认</el-button>
       </div>
     </el-dialog>
 </template>
@@ -128,7 +128,7 @@ export default {
             },
             fileName: '',
             // 防止重复提交
-            // loading: false
+            loading: false
         }
     },
     components: {
@@ -206,10 +206,13 @@ export default {
             reader.readAsDataURL(file);//FileReader对象的方法，可以读取Blob或者File对象的数据，转化为dataURL格式
         },
         finish() {
-            // this.loading = false
+            this.loading = true
             this.$refs.cropper.getCropBlob((data) => {
-                this.$emit('changeImgMsg', { blobFile: data, name: this.fileName })
-                this.closeDialog()
+                // 父组件数据处理完成以后, 执行回调关闭弹框
+                this.$emit('changeImgMsg', { blobFile: data, name: this.fileName }, () => {
+                    this.loading = false
+                    this.closeDialog()
+                })
                 // fetch(`https://upload.wedengta.com/shutu/${new Date().getTime()}.png`, {
                 //     method: 'post',
                 //     headers: {

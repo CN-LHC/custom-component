@@ -48,12 +48,13 @@ export default {
 
             return isFileSizeFit;
         },
-        changeImgMsg(value) {
+        changeImgMsg(value, callback) {
             blobToBase64(value.blobFile).then((base64) => {
                 this.imgMsg = {
                     blob: base64,
                     name: value.name
                 }
+		callback()
             })
         }
     }
@@ -86,9 +87,9 @@ examples/components/CropperDialog.vue
 
 ### CircularDouble Events
 
-| 事件名       | 说明                   | 参数  |
-| ------------ | ---------------------- | ----- |
-| changeImgMsg | 获取裁剪之后的图片资源 | ----- |
+| 事件名       | 说明                   | 参数                |
+| ------------ | ---------------------- | ------------------- |
+| changeImgMsg | 获取裁剪之后的图片资源 | [value, [callback]] |
 
 ### 组件相关信息
 
