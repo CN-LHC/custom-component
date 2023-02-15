@@ -2,9 +2,13 @@
 examples/
 packages/
 public/
-
+dist/
+doc/
+utils/
 # 忽略指定文件
 vue.config.js
 babel.config.js
 *.map
+.gitattributes
+package.json
 
