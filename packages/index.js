@@ -2,15 +2,17 @@
  * @Author: liuhanchuan 
  * @Date: 2023-01-31 14:32:12 
  * @Last Modified by: liuhanchuan
- * @Last Modified time: 2023-01-31 15:07:55
+ * @Last Modified time: 2023-02-15 15:35:58
  */
 
 import Turntable from "./turntable"
 import { WaterRipple1, WaterRipple2 } from './water-ripple'
 import CircularDouble from './circular-double'
 import CropperDialog from './cropper-dialog'
+import { Tabs, TabPane } from './Tabs'
+
 // 存储组件列表
-const components = [Turntable, WaterRipple1, WaterRipple2, CircularDouble, CropperDialog]
+const components = [Turntable, WaterRipple1, WaterRipple2, CircularDouble, CropperDialog, Tabs, TabPane]
 
 // 定义 install 方法，接收 Vue 作为参数。如果使用 use 注册插件，则所有的组件都将被注册
 const install = function(Vue) {
@@ -34,4 +36,6 @@ export default {
   WaterRipple2,
   CircularDouble,
   CropperDialog,
+  Tabs,
+  TabPane,
 }
