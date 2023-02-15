@@ -50,7 +50,7 @@ export default {
     },
     //获取tabs下的所有pane实例
     getTabs() {
-      return this.$children.filter(item => item.$options.name === "TabPane")
+      return this.$children.filter(item => item.$options.name === "tab-pane")
     },
     //获取所有pane组件用户传入的props
     updateNav() {
@@ -86,6 +86,7 @@ export default {
   padding: 1rem;
   width: 100%;
   height: 100%;
+  box-sizing: border-box;
   // background: url("~@/assets/echarts-bgc.png") no-repeat;
   // background-size: 100% 100%;
   box-shadow: #20bcfc 0px 0px 2.14rem inset;

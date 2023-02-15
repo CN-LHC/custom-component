@@ -2,11 +2,18 @@
  * @Author: liuhanchuan 
  * @Date: 2023-01-31 14:30:36 
  * @Last Modified by: liuhanchuan
- * @Last Modified time: 2023-01-31 15:44:03
+ * @Last Modified time: 2023-02-15 15:55:22
  */
 
 <template>
   <div>
+    <button
+        class="button"
+        type="success"
+        size="medium"
+        @click="btnComponent('tabs')"
+        >tabs标签页</button
+      >
       <button
         class="button"
         type="success"
